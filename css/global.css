@@ -25,7 +25,7 @@ li {
     font-family : 'Noto Sans';
     src         : url('../fonts/NotoSansRegular.woff2') format('woff2');
     font-display: swap;
-    font-weight : 400;
+    font-weight : 500;
     font-style  : normal;
 }
 
@@ -33,7 +33,7 @@ li {
     font-family : 'Noto Sans';
     src         : url('../fonts/NotoSansSemiBold.woff2') format('woff2');
     font-display: swap;
-    font-weight : 600;
+    font-weight : 700;
     font-style  : normal;
 }
 
@@ -41,7 +41,7 @@ li {
     font-family : 'Roboto';
     src         : url('../fonts/RobotoMedium.woff2') format('woff2');
     font-display: swap;
-    font-weight : 500;
+    font-weight : 600;
     font-style  : normal;
 }
 
@@ -54,9 +54,9 @@ li {
 }
 
 :root {
-    --color-dark  : #4d4d4d;
-    --color-light : #808080;
-    --color-accent: #5d71dd;
+    --color-dark  : #6a6868;
+    --color-light : #959595;
+    --color-accent: #6a7ff6;
 }
 
 a {
@@ -67,13 +67,13 @@ a {
 body {
     margin         : 0;
     font-family    : 'Noto Sans', sans-serif;
-    font-weight    : 400;
+    font-weight    : 500;
     overflow-anchor: none;
 }
 
 .btn {
     border          : none;
-    border-radius   : 4px;
+    border-radius   : 5px;
     padding         : 14px 0;
     cursor          : pointer;
     color           : #fff;
